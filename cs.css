@@ -1,0 +1,93 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("https://insquable.com/wp-content/uploads/2023/12/Hera-Casino-20.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+h1 {
+    color: goldenrod;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+}
+
+#message-el {
+    font-style: italic;
+    font-size: 1.2rem;
+    padding: 0 1rem;
+}
+
+button {
+    margin-bottom: 10px;
+    background: goldenrod;
+    padding: 0.5rem 1rem;
+    width: 80%;
+    max-width: 200px;
+    font-weight: bold;
+    color: #016f32;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d4af37;
+    color: #014f24;
+}
+
+button:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 0 #b32e2e;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    padding: 1rem;
+}
+
+@media (max-width: 768px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    #message-el {
+        font-size: 1rem;
+    }
+
+    button {
+        font-size: 0.95rem;
+        padding: 0.5rem;
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    button {
+        font-size: 0.9rem;
+        width: 95%;
+    }
+}
